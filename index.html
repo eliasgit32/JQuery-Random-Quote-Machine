@@ -5,18 +5,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Random Quote Machine</title>
+  <!-- stylesheets -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="styles.css">
+  <!-- scripts -->
   <script src="https://code.jquery.com/jquery-3.6.4.min.js"> </script>
   <script src="script.js"></script>
 </head>
 
 <body>
-  <div id="quote-box">
-    <h3 id="text"></h3>
-    <p id="author"></p>
-    <button id="new-quote">New Quote</button>
-    <a id="tweet-quote"></a>
+  <div id="box-container">
+    <div id="quote-box">
+      <h3 id="text">Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+        ut aliquip ex ea commodo consequat.</h3>
+      <div id="author-container">
+        <p id="author">-Joe Mama</p>
+      </div>
+      <div id="buttons-container">
+        <a id="tweet-quote" target="_blank" href="https://twitter.com/intent/tweet"><i class="fa fa-twitter"></i></a>
+        <button id="new-quote">New Quote</button>
+      </div>
+    </div>
   </div>
+
 </body>
 
 </html>
