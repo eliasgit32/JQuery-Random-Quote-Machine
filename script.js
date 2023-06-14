@@ -31,6 +31,6 @@ function getRandomQuote (quotes) {
 
 function displayRandomQuote(quotes) {
     let randomQuote = getRandomQuote(quotes);
-    $('#text').text('"'+randomQuote.quote+'"');
+    $('#text').text(' ' + randomQuote.quote + '  ');
     $('#author').text('- '+randomQuote.author);
 }
